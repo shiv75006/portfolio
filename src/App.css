@@ -1,0 +1,51 @@
+.name
+{
+  color: #B31312;
+  text-align: justify;
+  font-family: 'Poppins';
+  font-size: 70px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 80px;
+  margin-left: 5%;
+}
+.feild
+{
+  margin-top: -5.5%;
+  margin-left: 5%;
+  color: #000;
+  text-align: justify;
+  font-family: 'Poppins';
+  font-size: 24px;
+  font-style:normal;
+  font-weight: 500;
+  line-height: 80px; 
+}
+.downloadcv
+{
+  border-radius: 20px;
+  background: #F4D3C8;
+  border: none;
+  margin-left: 5%;
+  padding: 10px 40px 10px 10px;
+  font-size: 15px;
+  color:var(--red);
+  font-family: 'Poppins';
+}
+.aboutpara
+{
+  color: #B31312;
+  text-align: justify;
+  font-family: Poppins;
+  font-size: 16px;
+  margin-right: 41%;
+  margin-top: 5%;
+  margin-left: 5%;
+}
+.picture
+{
+  width:40%;
+  margin-right: 0%;
+  margin-left: 60%;
+  margin-top: -35%;
+}

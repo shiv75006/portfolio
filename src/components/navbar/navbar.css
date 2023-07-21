@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+:root
+{
+   --light:#EEE2DE;
+   --lo:#F4D3C8;
+   --orange:#EA906C;
+   --red:#B31312;
+   --blue:#2B2A4C;
+}
+.navbar
+{
+    margin-top: 20px;
+}
+.navbox
+{
+    width:90%;
+    margin-left: 5%;
+    padding:5px;
+    display: flex;
+    justify-content:flex-end;
+    background-color: var(--lo);
+    border-radius: 20px;
+}
+.navitem
+{
+    margin:10px 40px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color:#B31312;
+}
+
+.navitem :hover
+{
+    color: #EA906C;
+}
