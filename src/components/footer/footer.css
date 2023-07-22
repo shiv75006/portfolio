@@ -1,0 +1,67 @@
+.footercontainer
+{
+    margin-top: 100px;
+    background-color: #DDE6ED;
+}
+.footeritems
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.headings
+{
+   font-size: 12px;
+   font-family: 'poppins';
+}
+.information
+{
+    font-family: 'poppins';
+    margin-top: -20px;
+    color:#27374D;
+}
+.footerlinks
+{
+    text-decoration: none;
+    color:#27374D;
+}
+
+.footerlinks :hover
+{
+    color: #526D82;
+}
+
+@media screen and (max-width: 768px)
+{
+    .footercontainer
+{
+    margin-top: 120px;
+    background-color: #DDE6ED;
+}
+.footeritems
+{
+    display: flex;
+    justify-content:space-evenly;
+}
+.headings
+{
+   font-size: 10px;
+   font-family: 'poppins';
+}
+.information
+{
+    font-size: 10px;
+    font-family: 'poppins';
+    margin-top: -10px;
+    color:#27374D;
+}
+.footerlinks
+{
+    text-decoration: none;
+    color:#27374D;
+}
+
+.footerlinks :hover
+{
+    color: #526D82;
+}
+}

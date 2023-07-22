@@ -1,0 +1,74 @@
+.gridcontainer, .gridcontainer2
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: var(--red);
+    
+}
+.gridcontainer2
+{
+    background-color: #1F3C88;
+}
+.gridcontainer3
+{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    background-color: #FFDDD2;
+    
+}
+.griditem
+{
+    height:360px;
+    width:360px;
+    margin:50px;
+    background-color: var(--light);
+    border-radius:20px ;
+}
+.tedxhead
+{
+    margin: 0px;
+    padding: 10px;
+    margin-top: 20px;
+    color:white;
+    background-color: var(--red);
+    text-align: center;
+}
+.tedgridimg
+{
+    height:360px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.acmhead
+{
+    background-color: #1F3C88;
+    margin: 0px;
+    padding: 10px;
+    margin-top: 20px;
+    color:white;
+    text-align: center;
+}
+.griditem2 
+{
+    margin:100px;
+}
+.phead
+{
+    background-color: #FFDDD2;
+    margin: 0px;
+    padding: 10px;
+    margin-top: 20px;
+    color:#D14D72;
+    text-align: center;
+}
+
+@media screen and (max-width: 768px)
+{
+    .gridcontainer, .gridcontainer2, .gridcontainer3
+{ 
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+}
+}

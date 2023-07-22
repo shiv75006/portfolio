@@ -4,7 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Project from './components/pages/Project';
-
+import Management from './components/pages/Management'
+import Gd from './components/pages/Gd'
 import {
   createBrowserRouter,
   RouterProvider,
@@ -20,6 +21,14 @@ const router =createBrowserRouter([
   {
     path : "project",
     element:<Project/>,
+  },
+   {
+    path : "management",
+    element:<Management/>,
+  },
+  {
+    path : "gd",
+    element:<Gd/>,
   }
 ]);
 const root = ReactDOM.createRoot(document.getElementById('root'));

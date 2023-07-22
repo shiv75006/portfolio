@@ -33,3 +33,28 @@
 {
     color: #EA906C;
 }
+
+@media screen and (max-width: 768px)
+{
+    .navbar
+{
+    margin: 0px;
+    margin-top: 20px;
+}
+.navbox
+{
+   width:80%;
+   margin-left: 10%;
+   justify-content: center;
+}
+.navitem
+{
+    padding: 10px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    color:#B31312;
+    font-size: 10px;
+}
+
+}

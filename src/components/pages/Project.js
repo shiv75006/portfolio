@@ -1,5 +1,6 @@
 import React from 'react'
 import Navbar from '../navbar/Navbar'
+import Footer from '../footer/Footer'
 import './project.css'
 import {Link} from 'react-router-dom'
 const Project = () => {
@@ -18,9 +19,10 @@ const Project = () => {
         <h1 className='projectname'>GEU ACM Website</h1>
         <h4>React.js</h4>
         <p className='projectinfo'>The GEU ACM Student Chapter's dynamic website, built with React, offers an engaging platform for students and tech enthusiasts. Integrating the Google Sheets API, the website seamlessly collects real-time data including event registrations. Visitors can explore upcoming events, access resources, and interact with the vibrant tech community through this interactive and data-driven online hub.</p>
-        <p className='githublink'><span className='linktext'>Github Link :</span><Link className='Link' to="https://github.com/shiv75006/GEU-ACM-website">https://github.com/shiv75006/GEU-ACM-website</Link> </p>
+        <p className='githublink2'><span className='linktext'>Github Link :</span><Link className='Link' to="https://github.com/shiv75006/GEU-ACM-website">https://github.com/shiv75006/GEU-ACM-website</Link> </p>
         </div>
         </div>
+        <Footer></Footer>
     </div>
     
   )

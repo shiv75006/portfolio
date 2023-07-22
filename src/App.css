@@ -1,40 +1,36 @@
-.name
-{
-  color: #B31312;
+.name {
+  color: #b31312;
   text-align: justify;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 70px;
   font-style: normal;
   font-weight: 500;
   line-height: 80px;
   margin-left: 5%;
 }
-.feild
-{
+.feild {
   margin-top: -5.5%;
   margin-left: 5%;
   color: #000;
   text-align: justify;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-size: 24px;
-  font-style:normal;
+  font-style: normal;
   font-weight: 500;
-  line-height: 80px; 
+  line-height: 80px;
 }
-.downloadcv
-{
+.downloadcv {
   border-radius: 20px;
-  background: #F4D3C8;
+  background: #f4d3c8;
   border: none;
   margin-left: 5%;
   padding: 10px 40px 10px 10px;
   font-size: 15px;
-  color:var(--red);
-  font-family: 'Poppins';
+  color: var(--red);
+  font-family: "Poppins";
 }
-.aboutpara
-{
-  color: #B31312;
+.aboutpara {
+  color: #b31312;
   text-align: justify;
   font-family: Poppins;
   font-size: 16px;
@@ -42,20 +38,79 @@
   margin-top: 5%;
   margin-left: 5%;
 }
-.picture
-{
-  width:40%;
+.picture {
+  width: 40%;
   margin-right: 0%;
   margin-left: 60%;
   margin-top: -35%;
 }
-.scmpics
+.pic2
 {
-  width:2%;
+  width:0%;
+}
+.scmpics {
+  width: 2%;
   margin-right: 25px;
 }
-.scmlinks
-{
+.scmlinks {
   margin-left: 5%;
   margin-top: -10%;
+}
+
+@media screen and (max-width: 768px) {
+  .name {
+    color: #b31312;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 50px;
+  }
+  .feild {
+    color: #000;
+text-align: center;
+font-size: 16px;
+font-style: normal;
+margin-top: -60px;
+font-weight: 500; 
+  }
+  .downloadcv {
+    margin-top: -20px;
+    margin-left: 50%;
+    transform: translate(-50%, 50%);
+    padding: 10px;
+  }
+  .aboutpara {
+    color: #b31312;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 10px;
+    margin-right: 10%;
+    margin-top: 15%;
+    margin-left: 10%;
+  }
+  .picture {
+  
+    width: 0%;
+  
+  }
+  .pic2
+  {
+    margin-top: -20%;
+    margin-bottom: 20%;
+    margin-left: 50%;
+    transform: translate(-45%,50%);
+    width:50%;
+    border : 2px solid var(--lo);
+    border-radius: 50%;
+  }
+  .scmpics {
+    width: 20%;
+    margin: -100px;
+  }
+  .scmlinks {
+   display: flex;
+   justify-content: center;
+   margin-left: 54%;
+  }
 }
